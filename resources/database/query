@@ -1,0 +1,33 @@
+
+-- rules user
+SELECT users.name, users.password, users.email, rules.rules_code From users
+JOIN user_rules ON users.id =  user_rules.user_id
+JOIN rules ON user_rules.user_id = rules.id;
+
+
+SELECT book.id,book.title, author.fio, book.date FROM book JOIN book_author ON book.id = book_author.id_book
+JOIN author ON book_author.id_author = author.id;
+
+SELECT book.id,book.title, author.fio, book.date FROM book JOIN book_author ON book.id = book_author.id_book
+JOIN author ON book_author.id_author = author.id order by book.date desc;
+
+SELECT book.title, author.fio FROM book JOIN book_author ON book.id = book_author.id_book
+JOIN author ON book_author.id_author = author.id;
+
+SELECT author.fio, COUNT(*) as count_book FROM book JOIN book_author ON book.id = book_author.id_book
+JOIN author ON book_author.id_author = author.id group by author.fio;
+
+SELECT book.title, author.fio FROM book JOIN book_author ON book.id = book_author.id_book JOIN author ON book_author.id_author = author.id;
+
+SELECT book.id,book.title, author.fio, book.date FROM book JOIN book_author ON book.id = book_author.id_book
+JOIN author ON book_author.id_author = author.id WHERE book.id=36;
+
+
+SELECT * FROM bookit.book;
+SELECT * FROM bookit.author;
+SELECT * FROM bookit.book_author;
+SELECT * FROM bookit.users;
+SELECT * FROM bookit.rules;
+SELECT * FROM bookit.user_rules;
+
+
