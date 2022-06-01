@@ -18,6 +18,6 @@
   <li>mySQL;</li>
   <li>jQuery 3.6;</li>
   <li>PHPMailer;</li>
-  <li>Bootstrap v5.0</li>
+  <li>Bootstrap v5.1.3</li>
   <li>JavaScript</li>
 </ul>  
