@@ -20,7 +20,7 @@ if (isset($_POST['email'])) {
             $mail->Host = 'smtp.yandex.ru';
             $mail->SMTPAuth = true;
             $mail->Username = 'bendar01@tut.by';
-            $mail->Password = '25874480';
+            $mail->Password = '';  //тут ваш пароль от почты
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
             $mail->CharSet = 'UTF-8';
