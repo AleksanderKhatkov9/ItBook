@@ -24,4 +24,5 @@
 
 
 # Пример ItBook
-![project](https://user-images.githubusercontent.com/74569011/172325959-afe67c11-9063-457f-8c8d-fa6bbaae477f.JPG)
+
+![img-1](https://user-images.githubusercontent.com/74569011/172327723-4c52468b-15b3-426a-a521-a527d60ee104.JPG)
